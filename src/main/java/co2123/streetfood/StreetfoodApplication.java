@@ -435,8 +435,8 @@ public class StreetfoodApplication implements CommandLineRunner {
 //        vendor3.setAwards(new ArrayList<>(List.of(award4)));
 //        tagRepository.saveAll(tagList);
 //        vendorRepository.saveAll(vendorList);
-        vendorRepository.save(vendor);
-        vendorRepository.save(vendor2);
-        vendorRepository.save(vendor3);
+//        vendorRepository.save(vendor); // 2 disappear
+//        vendorRepository.save(vendor2); // 3
+//        vendorRepository.save(vendor3); // 2
     }
 }
